@@ -28,6 +28,8 @@ If you have specific statics that you don't want to be hoisted, you can also pas
 hoistNonReactStatics(targetComponent, sourceComponent, { myStatic: true, myOtherStatic: true });
 ```
 
+`hoistNonReactStatics` returns the `targetComponent`.
+
 ## What does this module do?
 
 See this [explanation](https://facebook.github.io/react/docs/higher-order-components.html#static-methods-must-be-copied-over) from the React docs.
